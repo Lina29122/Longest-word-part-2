@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+struct TreeNode {
+    char letter;
+    struct TreeNode* children[26]; 
+    int isEndOfWord;
+};
+void insertWord(struct TreeNode* root, char* word);
+int searchWord(struct TreeNode* root, char* word);
+void deleteTree(struct TreeNode* root);
+
+int main() {
+    struct TreeNode* root = NULL
+    deleteTree(root);
+
+    return 0;
+}
+void insertWord(struct TreeNode* root, char* word) {
+}
+int searchWord(struct TreeNode* root, char* word) {
+}
+
+void deleteTree(struct TreeNode* root) {
+}
